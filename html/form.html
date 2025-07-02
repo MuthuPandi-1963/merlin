@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
 </head>
 <body>
     <form action="">
-
+        <h1>Employee Form</h1>
         <div>
             <label for="user">Username : </label>
-            <input type="text" placeholder="enter a name" name="user" id="user" required value="hii" readonly hidden disabled>
+            <input type="text" placeholder="enter a name" name="user" id="user" required class="test">
         </div>
         <div>
             <label for="num">Mobile Number Rating</label>
-            <input type="number" placeholder="enter a number" min="1" max="10" required>
+            <input type="number" placeholder="enter a number" min="1" max="10" required class="test">
         </div>
         <div>
             <label for="email">Email address</label>
-            <input type="email" name="" id="" placeholder="enter a email" required>
+            <input type="email" name="" id="" placeholder="enter a email" required class="test">
         </div>
         <div>
             <label for="pass">Password</label>
-            <input type="password" name="" id="" placeholder="enter a password" minlength="8" required  >
+            <input type="password" name="" id="" placeholder="enter a password" minlength="8" required class="test"  >
         </div>
         <div>
             <label for="dob">DOB</label>
@@ -37,22 +38,29 @@
             <label for="">Female</label>
         </div>
         
-        <input type="file" name="" id="">
-        <div>
+        <!-- <input type="file" name="" id=""> -->
+       
+        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+         <div class="">
+
+             <label for="">Select a country</label>
+             <select name="" id="">
+                 <option value="">India</option>
+                 <option value="">China</option>
+                 <option value="">Russia</option>
+                 <option value="">America</option>
+                </select>
+            </div>
+         <div id="term">
             <input type="checkbox" id="atc">
             <label for="atc">Accept terms and conditions</label>
         </div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <label for="">Select a country</label>
-        <select name="" id="">
-            <option value="">India</option>
-            <option value="">China</option>
-            <option value="">Russia</option>
-            <option value="">America</option>
-        </select>
-        <button type="button">button</button>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+        <div class="">
+
+            <!-- <button type="button">button</button> -->
+            <button type="submit">Submit</button>
+            <!-- <button type="reset">Reset</button> -->
+        </div>
     </form>
     
 </body>

@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+div{
+    margin-left: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size:x-large;
+}
+div .test{
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+input[type="date"]{
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+select{
+    width: 200px;
+    height: 30px;
+    font-size:large;
+}
+#term label{
+    font-size: smaller;
+    color: blue;
+    text-decoration: underline;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+button[type="submit"]{
+    width: 300px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: large;
+}

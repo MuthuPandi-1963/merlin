@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+}
+.content{
+    color: red;
+}
+
+#player-1{
+    color:coral;
+}
+
+ul li{
+    list-style:none;
+}
+
+#player-1 , #player-2{
+    border: 2px solid blue;
+    background-color: gainsboro;
+}
+input[type = "number"]{
+    width: 200px;
+    height: 30px;
+}
