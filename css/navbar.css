@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    column-gap: 20px;
+    justify-content: center;
+    /* justify-content: end;
+    justify-content: start; */
+    background-color: skyblue;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#space{
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    row-gap: 20px;
+}
+#end{
+    justify-content: space-between;
+}
