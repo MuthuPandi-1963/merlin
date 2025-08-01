@@ -1,0 +1,25 @@
+*{
+    margin: 0;padding: 0;
+}
+.main{
+    display: grid;
+    height: 600px;
+    grid-template-columns: repeat(3,400px);
+    margin: 20px;
+    justify-content: center;
+}
+
+.items img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: 2px solid pink;
+    border-radius: 10px;
+
+}
